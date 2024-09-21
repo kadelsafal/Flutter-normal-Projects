@@ -1,0 +1,19 @@
+{
+  "name": "node_backend",
+  "version": "1.0.0",
+  "description": "realestate project backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "firebase-admin": "^12.5.0",
+    "mongoose": "^8.6.3"
+  }
+}
